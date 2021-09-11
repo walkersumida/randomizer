@@ -3,7 +3,7 @@ package randomizer
 import "testing"
 
 func TestRun(t *testing.T) {
-	t.Run("with a,b,c", func(t *testing.T){
+	t.Run("with a,b,c", func(t *testing.T) {
 		expected := 1
 		got := len(Run("a,b,c"))
 
@@ -12,7 +12,7 @@ func TestRun(t *testing.T) {
 		}
 	})
 
-	t.Run("with 1,2,3", func(t *testing.T){
+	t.Run("with 1,2,3", func(t *testing.T) {
 		expected := 1
 		got := len(Run("1,2,3,4"))
 

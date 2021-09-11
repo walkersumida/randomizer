@@ -21,7 +21,7 @@ func TestRun(t *testing.T) {
 		}
 	})
 
-	t.Run("with 10,20,30", func(t *testing.T){
+	t.Run("with 10,20,30", func(t *testing.T) {
 		expected := 2
 		got := len(Run("10,20,30"))
 
